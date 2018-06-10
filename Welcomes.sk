@@ -1,0 +1,8 @@
+on join: 
+	broadcast "&a+ &7%player%"
+	
+on leave:
+	broadcast "&c- &7%player%"
+	
+on first join:
+	broadcast "&a+ &7%player% Oh... what do we have here? %player% seems to be new too the server!"
